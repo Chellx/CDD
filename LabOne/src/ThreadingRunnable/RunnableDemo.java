@@ -8,8 +8,9 @@ package ThreadingRunnable;
 
 /**
  *
- * @author KEHOEJ
  * @author Michelle Bolger
+ * @Date 16/10/2021
+ * @Licence GNU General Public License v2.0
  */
 class RunnableDemo implements Runnable {
     private Thread t;

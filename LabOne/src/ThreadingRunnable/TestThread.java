@@ -5,11 +5,11 @@ package ThreadingRunnable;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-
 /**
  *
- * @author KEHOEJ
  * @author Michelle Bolger
+ * @Date 16/10/2021
+ * @Licence GNU General Public License v2.0
  */
 public class TestThread {
     /**

@@ -10,8 +10,9 @@ import ThreadInheriting.ThreadDemo;
 
 /**
  *
- * @author KEHOEJ
  * @author Michelle Bolger
+ * @Date 16/10/2021
+ * @Licence GNU General Public License v2.0
  *
  * Create two threads and run them.
  */
