@@ -34,6 +34,9 @@ public class Main {
 
     public static void main(String[] args)
     {
+        final long begin = System.currentTimeMillis(); // get current time before tasks run
+
+
         AtomicInteger atomicTotal = new AtomicInteger(0);
         // creates five tasks
         Runnable r1 = new Task("task 1",atomicTotal);
@@ -59,5 +62,8 @@ public class Main {
             Logger.getLogger(LabTwo.Main.class.getName()).log(Level.SEVERE, null, ex);
         }
         System.out.println("total is: "+atomicTotal.intValue());
+
+        final long totalTime = System.currentTimeMillis() - begin;
+        System.out.println("Total Time: " + totalTime);
     }
 }

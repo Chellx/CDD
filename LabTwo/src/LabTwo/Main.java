@@ -33,6 +33,9 @@ public class Main {
      */
     public static void main(String[] args)
     {
+
+        final long begin = System.currentTimeMillis(); // get current time before tasks run
+
         IntegerObj total= new IntegerObj(0);
         // creates five tasks
         Runnable r1 = new Task("task 1",total);
@@ -58,5 +61,8 @@ public class Main {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }
         System.out.println("total is: "+total.value);
+
+        final long totalTime = System.currentTimeMillis() - begin;
+        System.out.println("Total Time: " + totalTime);
     }
 }
