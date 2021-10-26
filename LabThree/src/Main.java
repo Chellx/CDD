@@ -3,6 +3,18 @@ import java.util.concurrent.Executors;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ *
+ * @author Michelle Bolger
+ * @Date 26/10/2021
+ * @Licence GNU General Public License v2.0
+ */
+
+/**
+ * Creates 4 threads which are added to a thread pool
+ * These threads are executed
+ */
+
 public class Main {
 
     // Maximum number of threads in thread pool
