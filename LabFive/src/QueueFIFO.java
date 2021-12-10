@@ -37,6 +37,9 @@ public class QueueFIFO {
     }
 
 
+    /**
+     * removes thread off queue and releases from blocked state
+     */
     public void signalThread(){
         try{
             mutex.acquire();
